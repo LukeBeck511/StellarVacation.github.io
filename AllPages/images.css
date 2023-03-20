@@ -1,0 +1,50 @@
+.image-center{
+    display: block;
+    align-content: center;
+    width:  400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-left{
+    display: block;
+    align-content: center;
+    width:  400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-size{
+        width: 66px;
+        height: 66px;
+        position: relative;
+}
+
+@keyframes spin{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.spinning:hover{
+    animation: spin 3s infinite;
+    width: 80px;
+    height: 80px;
+}
+
+.spinning2:hover{
+    animation: spin 3s infinite;
+    width: 400px;
+    height:400px;
+}
+
+.image-center2{
+    display: block;
+    align-content: center;
+    width:  375px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: spin 3s infinite;
+}
